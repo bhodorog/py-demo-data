@@ -6,5 +6,5 @@ setup(
     packages=find_packages(),
     package_dir={"": "src"},
     entry_points={
-        "poormans_db.some_data": "some_data = some_data:build"},
+        "poormans_db.bondi": "some_data = some_data:build"},
 )
